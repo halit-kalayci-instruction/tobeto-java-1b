@@ -154,12 +154,14 @@ public class Main
         Product product = new Product();
         product.name="Laptop";
         product.price=50;
+        product.discount(10);
 
-        Product product1 = new Product();
-        product1.name="Mouse";
-        product1.price=10;
+        // constructor => yapıcı metot
+        Product product1 = new Product("Mouse", 10);
+        product1.discount(5);
 
-
+        System.out.println(product.price);
+        System.out.println(product1.price);
 
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
