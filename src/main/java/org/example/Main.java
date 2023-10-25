@@ -147,5 +147,19 @@ public class Main
             System.out.println(name);
         }
 
+        // OOP
+        // Product => unitprice, name, discount(), sell()
+
+        // instance => örnek
+        Product product = new Product();
+        product.name="Laptop";
+        product.price=50;
+
+        Product product1 = new Product();
+        product1.name="Mouse";
+        product1.price=10;
+
+
+
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
