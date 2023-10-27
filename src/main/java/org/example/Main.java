@@ -179,6 +179,11 @@ public class Main
         dog.breathe();
         fish.breathe();
 
+        bird.makeSound();
+        dog.makeSound();
+        fish.makeSound();
+
+
         // Polymorphism
         // Çok çeşitlilik
         Animal animal = new Bird();
@@ -190,7 +195,7 @@ public class Main
         ((Bird)animal1).fly();
         Bird bird1 = (Bird) animal;
 
-
+        // Abstraction
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
 // 3:00

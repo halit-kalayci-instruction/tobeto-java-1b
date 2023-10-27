@@ -7,6 +7,11 @@ public class Fish extends Animal{
 
     }
 
+    @Override
+    public void makeSound() {
+        System.out.println("Fish sound..");
+    }
+
     @Override // ana classadaki bu metodu üzerine yap
     public void breathe() {
         // this => içinde bulunduğum class
