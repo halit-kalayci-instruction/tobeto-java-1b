@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.inheritance.Animal;
 import org.example.inheritance.Bird;
 import org.example.inheritance.Dog;
 import org.example.inheritance.Fish;
@@ -177,6 +178,19 @@ public class Main
         bird.breathe();
         dog.breathe();
         fish.breathe();
+
+        // Polymorphism
+        // Çok çeşitlilik
+        Animal animal = new Bird();
+        Animal animal1 = new Dog();
+        Animal animal2 = new Fish();
+
+        // Casting
+        ((Bird)animal).fly();
+        ((Bird)animal1).fly();
+        Bird bird1 = (Bird) animal;
+
+
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
 // 3:00
