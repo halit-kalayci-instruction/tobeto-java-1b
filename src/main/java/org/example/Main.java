@@ -1,7 +1,11 @@
 package org.example;
 
+import org.example.inheritance.Bird;
+import org.example.inheritance.Dog;
+import org.example.inheritance.Fish;
+import org.example.models.*;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main
@@ -160,5 +164,19 @@ public class Main
         Product product1 = new Product("Mouse", 10);
         product1.discount(5);
 
+
+        Category category = new Category();
+        Order order = new Order();
+
+        // Inheritance
+        // Polymorphism
+        // Abstraction - Interface
+        Bird bird = new Bird();
+        Dog dog = new Dog();
+        Fish fish = new Fish();
+        bird.breathe();
+        dog.breathe();
+        fish.breathe();
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
+// 3:00
