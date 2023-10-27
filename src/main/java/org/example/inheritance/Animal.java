@@ -1,6 +1,9 @@
 package org.example.inheritance;
 
+// somut işlemler de barındırabilen
+// soyutlama da yapılan yapılardır
 public abstract class Animal {
+    public int id;
 
     public abstract void makeSound();
 

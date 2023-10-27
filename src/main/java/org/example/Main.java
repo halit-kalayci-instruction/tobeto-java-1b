@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.inheritance.Animal;
-import org.example.inheritance.Bird;
-import org.example.inheritance.Dog;
-import org.example.inheritance.Fish;
+import org.example.inheritance.*;
 import org.example.models.*;
 
 import java.util.ArrayList;
@@ -195,6 +192,8 @@ public class Main
         ((Bird)animal1).fly();
         Bird bird1 = (Bird) animal;
 
+        //Animal animal3 = new Animal();
+        //AnimalInterface animalInterface = new AnimalInterface();
         // Abstraction
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
